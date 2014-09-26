@@ -45,6 +45,8 @@ end
 
 # Use Capistrano for deployment
 gem 'capistrano', group: :development
+gem 'capistrano-rails', group: :development
+gem 'capistrano-rbenv', require: false, group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
