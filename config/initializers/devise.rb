@@ -236,6 +236,7 @@ Devise.setup do |config|
   # up on your models and hooks.
   # config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'
   config.omniauth :wso2, APP_CONFIG['oauth2_client_id'], APP_CONFIG['oauth2_secret'],
+                  :scope => 'openid',
                   :strategy_class => OmniAuth::Strategies::WSO2,
                   :client_options => {:site => APP_CONFIG['site_url'],
                                       :authorize_url => APP_CONFIG['authorize_url'],
