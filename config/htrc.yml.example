@@ -1,6 +1,3 @@
-# See wiki for current client_id and secret values.
-#   http://wiki.htrc.illinois.edu/display/DEV/HTRC-UI-Blacklight
-
 
 development:
    add_google_analytics?: false
