@@ -28,7 +28,7 @@ WorksetBuilder::Application.configure do
   config.assets.compress = false
 
   # Sets the host for the assets
-  config.action_controller.asset_host = "http://htrc6.pti.indiana.edu:9443"
+  config.action_controller.asset_host = "http://htrc6.pti.indiana.edu:9443/workset-builder"
   #config.action_controller.asset_host = "http://localhost:3001"
 
   # Debug mode disables concatenation and preprocessing of assets.
