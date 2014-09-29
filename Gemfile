@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+RAILS_ENV = ENV['RAILS_ENV'] || 'development'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
 
