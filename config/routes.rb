@@ -9,7 +9,7 @@ WorksetBuilder::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # root "catalog#index"
 
-  get 'workset-builder' => "catalog#index"
+  get '/workset-builder' => "catalog#index"
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
